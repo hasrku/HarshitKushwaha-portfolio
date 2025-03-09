@@ -62,14 +62,14 @@ const Hero = () => {
                         initial={{ width: "0px" }}
                         animate={{ width: isShrinking ? "0px" : `${widtht}px` }}
                         transition={{ duration: 2, ease: "easeInOut" }}
-                        className=" bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent relative text-4xl lg:text-5xl font-semibold whitespace-nowrap overflow-hidden inline-block h-16 lg:mr-9"
+                        className=" bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent relative text-[32px] lg:text-5xl font-semibold whitespace-nowrap overflow-hidden inline-block h-16 lg:mr-9"
                     >
                         {typingNames[index]}
                         <CursorBlinker />
                     </motion.span>
                 </h1>
                 <span
-                    className="text-4xl lg:text-5xl font-semibold whitespace-nowrap invisible absolute"
+                    className="text-[32px] lg:text-5xl font-semibold whitespace-nowrap invisible absolute"
                     ref={textRef}
                 >
                     {typingNames[index]}
