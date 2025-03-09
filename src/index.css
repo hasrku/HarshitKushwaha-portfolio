@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@font-face {
+    font-family: PetrovSans-Regular;
+    src: url(./assets/fonts/PetrovSans-Regular.ttf);
+}
+
+@theme {
+    --font-poppins: Poppins, sans-serif;
+    --font-petrov: "PetrovSans-Regular";
+    --color-bgcolor: #010922;
+    --color-seccol: #8080d7;
+    --color-thirdcol: #aad9d9;
+}
