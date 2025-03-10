@@ -40,10 +40,10 @@ const Hero = () => {
             x: [0, 30, -20], // Moves right, then left
             y: [0, -20, 20], // Moves up when going right, down when going left
             transition: {
-                duration: 6, // Time for one cycle
-                repeat: Infinity, // Infinite loop
-                repeatType: "reverse", // Moves back and forth smoothly
-                ease: "easeInOut", // Smooth motion
+                duration: 6, 
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut",
             },
         },
     };
