@@ -107,7 +107,7 @@ const Navbar = () => {
                 </div>
                 <div
                     onClick={toggleNavbar}
-                    className="lg:hidden ml-auto z-60 bg-indigo-950 rounded-full p-1"
+                    className="lg:hidden ml-auto z-60 bg-indigo-950 rounded-full p-1 cursor-pointer"
                 >
                     {navActive ? <IoClose size={30} /> : <IoMenu size={30} />}
                 </div>
@@ -154,7 +154,7 @@ const Navbar = () => {
                             </div>
                         </motion.div>
                         <div
-                            className="h-screen w-screen absolute top-0 left-0 z-55"
+                            className="h-screen w-screen absolute top-0 left-0 z-60"
                             onClick={toggleNavbar}
                         ></div>
                     </>

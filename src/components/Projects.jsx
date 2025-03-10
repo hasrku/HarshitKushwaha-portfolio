@@ -52,7 +52,7 @@ const Projects = () => {
                 Projects
             </motion.span>
 
-            <div className="grid grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-8 mt-3 relative">
+            <div className="grid grid-rows-4 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 gap-8 mt-3 relative">
                 <motion.img
                     variants={imageVariants}
                     whileInView="animate"
