@@ -27,13 +27,13 @@ const animatorVariants = (delay, duration) => {
 const Projects = () => {
     const imageVariants = {
         animate: {
-            x: [0, 20, -20], // Moves right, then left
-            y: [0, -20, 20], // Moves up when going right, down when going left
+            x: [0, 20, -20],
+            y: [0, -20, 20],
             transition: {
-                duration: 6, // Time for one cycle
-                repeat: Infinity, // Infinite loop
-                repeatType: "reverse", // Moves back and forth smoothly
-                ease: "easeInOut", // Smooth motion
+                duration: 6,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut",
             },
         },
     };

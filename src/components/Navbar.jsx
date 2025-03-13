@@ -107,7 +107,7 @@ const Navbar = () => {
                 </div>
                 <div
                     onClick={toggleNavbar}
-                    className="lg:hidden ml-auto z-60 bg-indigo-950 rounded-full p-1 cursor-pointer"
+                    className="lg:hidden ml-auto z-60 bg-[#162a5267] rounded-full p-1 cursor-pointer"
                 >
                     {navActive ? <IoClose size={30} /> : <IoMenu size={30} />}
                 </div>
@@ -121,7 +121,7 @@ const Navbar = () => {
                             initial="initial"
                             animate="animate"
                             exit="initial"
-                            className="fixed  w-screen min-h-40 mt-16 top-0 left-0 lg:hidden z-60 bg-[#120d3cd2] backdrop-blur-3xl rounded-b-3xl"
+                            className="fixed  w-screen min-h-40 mt-16 top-0 left-0 lg:hidden z-70 bg-[#100b38a5] backdrop-blur-3xl rounded-b-3xl"
                         >
                             <div className="py-5 gap-3 flex flex-col justify-center items-center">
                                 {navItems.map((item) => (
@@ -154,7 +154,7 @@ const Navbar = () => {
                             </div>
                         </motion.div>
                         <div
-                            className="h-screen w-screen absolute top-0 left-0 z-60"
+                            className="h-screen w-screen fixed top-0 left-0 z-60"
                             onClick={toggleNavbar}
                         ></div>
                     </>
